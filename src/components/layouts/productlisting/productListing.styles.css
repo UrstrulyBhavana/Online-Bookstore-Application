@@ -1,0 +1,53 @@
+.product-listing-container{
+    margin-top: 5%;
+}
+.listing-container{
+    padding-top: 4rem;
+}
+
+.product-listing-card{
+    border: 1px solid #aaa;
+    width: fit-content;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 10px;
+}
+
+.product-listing-image{
+    width: 200px;
+}
+
+.product-listing-details-container{
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.author-name{
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+}
+
+.pricing{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color-bright);
+    padding-left: 1.2rem;
+}
+
+.product-listing-button{
+    display: inline-block;
+    background-color: black;
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+    color: white;
+    font-family: Chivo Mono;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+
+.product-listing-button:hover{
+    background-color: var(--primary-color-bright);
+}
